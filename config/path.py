@@ -1,0 +1,10 @@
+#config/path.py
+RAW_DATA_PATH = "D:/PySpark_Project/Marketing_Campaign_ETL_Pipeline/data/raw/"
+BRONZE_DATA_PATH = "D:/PySpark_Project/Marketing_Campaign_ETL_Pipeline/data/bronze"
+SILVER_CLEAN_DATA_PATH = "D:/PySpark_Project/Marketing_Campaign_ETL_Pipeline/data/silver/silver_cleaned"
+SILVER_FILTER_FINAL_PATH = "D:/PySpark_Project/Marketing_Campaign_ETL_Pipeline/data/silver/silver_filter_final"
+SQL_METRICS_PATH = "D:/PySpark_Project/Marketing_Campaign_ETL_Pipeline/data/gold/sql_metrics"
+GOLD_BASE_PATH = "D:/PySpark_Project/Marketing_Campaign_ETL_Pipeline/data/gold/gold_agg"
+GOLD_CAMPAIGN_SUMMARY = f"{GOLD_BASE_PATH}/campaign_summary"
+GOLD_CHANNEL_SUMMARY = f"{GOLD_BASE_PATH}/channel_summary"
+GOLD_DAILY_SUMMARY = f"{GOLD_BASE_PATH}/daily_summary"
