@@ -1,0 +1,11 @@
+{"timestamp": "2026-02-02T11:25:02.729776", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Starting Silver Cleaning Process..."}
+{"timestamp": "2026-02-02T11:25:02.730803", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Loading Bronze Data"}
+{"timestamp": "2026-02-02T11:25:03.194780", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Total Bronze rows detected : 301000"}
+{"timestamp": "2026-02-02T11:25:04.008326", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Existing Silver rows detected : 301000"}
+{"timestamp": "2026-02-02T11:25:04.009332", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Dropping duplicate Campaign_ID records"}
+{"timestamp": "2026-02-02T11:25:04.016588", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Dropping rows with NULL Campaign_ID"}
+{"timestamp": "2026-02-02T11:25:04.025568", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Cleaning numeric columns"}
+{"timestamp": "2026-02-02T11:25:04.238418", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Converting Date column to DateType"}
+{"timestamp": "2026-02-02T11:25:06.159360", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Final Silver row count after cleaning : 301000"}
+{"timestamp": "2026-02-02T11:25:06.159360", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Writing Silver Data to TEMP Path"}
+{"timestamp": "2026-02-02T11:25:18.466131", "level": "INFO", "logger": "Silver Cleaning", "module": "silver_cleaning", "message": "Silver Cleaning Completed Successfully"}

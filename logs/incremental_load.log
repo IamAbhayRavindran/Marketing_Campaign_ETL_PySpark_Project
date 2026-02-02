@@ -1,0 +1,9 @@
+{"timestamp": "2026-02-02T11:25:43.596894", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "Starting Hybrid Incremental Load Pipeline..."}
+{"timestamp": "2026-02-02T11:25:43.597866", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "Running Bronze Incremental Logic..."}
+{"timestamp": "2026-02-02T11:25:51.057047", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "Existing Bronze Data found. Applying incremental filter..."}
+{"timestamp": "2026-02-02T11:25:51.625676", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "Last ingestion timestamp in Bronze : 2026-02-02 16:55:46.602375"}
+{"timestamp": "2026-02-02T11:26:02.269578", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "New Bronze rows after timestamp filter : 301000"}
+{"timestamp": "2026-02-02T11:26:02.269578", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "Removing duplicate Campaign_ID values..."}
+{"timestamp": "2026-02-02T11:26:04.821387", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "Bronze deduplication complete : 0/301000 rows kept"}
+{"timestamp": "2026-02-02T11:26:04.822414", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "New Bronze rows added : 0"}
+{"timestamp": "2026-02-02T11:26:04.822414", "level": "INFO", "logger": "Incremental Load", "module": "incremental_load", "message": "No new Bronze Data. Pipeline stopped."}

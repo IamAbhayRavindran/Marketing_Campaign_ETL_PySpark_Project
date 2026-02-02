@@ -1,0 +1,10 @@
+{"timestamp": "2026-02-02T11:24:33.599715", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Bronze Ingestion Started..."}
+{"timestamp": "2026-02-02T11:24:33.599715", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Reading Raw CSV Data..."}
+{"timestamp": "2026-02-02T11:24:36.667493", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Total Raw rows detected : 301000"}
+{"timestamp": "2026-02-02T11:24:38.531796", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "No new rows since last Bronze ingestion"}
+{"timestamp": "2026-02-02T11:24:45.001550", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Bronze Ingestion Completed Successfully..."}
+{"timestamp": "2026-02-02T11:25:43.609197", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Bronze Ingestion Started..."}
+{"timestamp": "2026-02-02T11:25:43.609197", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Reading Raw CSV Data..."}
+{"timestamp": "2026-02-02T11:25:46.158210", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Total Raw rows detected : 301000"}
+{"timestamp": "2026-02-02T11:25:46.584861", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "No new rows since last Bronze ingestion"}
+{"timestamp": "2026-02-02T11:25:50.998551", "level": "INFO", "logger": "Bronze Ingestion", "module": "bronze_ingestion", "message": "Bronze Ingestion Completed Successfully..."}

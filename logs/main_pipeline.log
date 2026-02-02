@@ -1,0 +1,20 @@
+{"timestamp": "2026-02-02T11:23:33.733879", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Marketing Campaign Pipeline Started..."}
+{"timestamp": "2026-02-02T11:23:33.733879", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 1: Schema Exploration Started"}
+{"timestamp": "2026-02-02T11:24:33.587264", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 1 Completed"}
+{"timestamp": "2026-02-02T11:24:33.587264", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 2: Raw to Bronze Ingestion Started"}
+{"timestamp": "2026-02-02T11:24:45.001550", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 2 Completed"}
+{"timestamp": "2026-02-02T11:24:45.002916", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 3: Data Profiling Started"}
+{"timestamp": "2026-02-02T11:25:02.714166", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 3 Completed"}
+{"timestamp": "2026-02-02T11:25:02.714166", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 4: Silver Cleaning Started"}
+{"timestamp": "2026-02-02T11:25:18.467127", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 4 Completed"}
+{"timestamp": "2026-02-02T11:25:18.467127", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 5: Silver Final Filtering Started"}
+{"timestamp": "2026-02-02T11:25:22.275657", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 5 Completed"}
+{"timestamp": "2026-02-02T11:25:22.275657", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 6: SQL Metrics Started"}
+{"timestamp": "2026-02-02T11:25:27.007083", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 6 Completed"}
+{"timestamp": "2026-02-02T11:25:27.008081", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 7: Gold Aggregation Started"}
+{"timestamp": "2026-02-02T11:25:43.581332", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 7 Completed"}
+{"timestamp": "2026-02-02T11:25:43.582334", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 8: Incremental Loading Started"}
+{"timestamp": "2026-02-02T11:26:04.822414", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 8 Completed"}
+{"timestamp": "2026-02-02T11:26:04.823413", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 9: Data validation Started"}
+{"timestamp": "2026-02-02T11:26:13.053466", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Step 9 Completed"}
+{"timestamp": "2026-02-02T11:26:13.054457", "level": "INFO", "logger": "ETL_Main_Pipeline", "module": "main", "message": "Marketing Campaign Pipeline Completed Successfully..."}

@@ -1,0 +1,12 @@
+{"timestamp": "2026-02-02T11:25:27.024091", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Starting Gold Aggregation Process..."}
+{"timestamp": "2026-02-02T11:25:27.440990", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Total Silver Filter Final records: 301000"}
+{"timestamp": "2026-02-02T11:25:28.100253", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Initial NULL check -> Campaign_ID : 0, Date : 101000"}
+{"timestamp": "2026-02-02T11:25:29.006130", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "After Date parsing \u2192 Invalid Campaign_ID: 0, Invalid Date: 101000"}
+{"timestamp": "2026-02-02T11:25:30.125662", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Records used -> Campaign/Channel: 301000, Daily(valid date): 200000"}
+{"timestamp": "2026-02-02T11:25:30.170522", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Creating Campaign Summary"}
+{"timestamp": "2026-02-02T11:25:37.659798", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Campaign Summary rows: 301000"}
+{"timestamp": "2026-02-02T11:25:37.659798", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Creating Channel Summary"}
+{"timestamp": "2026-02-02T11:25:40.265795", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Channel Summary rows: 6"}
+{"timestamp": "2026-02-02T11:25:40.265795", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Creating Daily Summary"}
+{"timestamp": "2026-02-02T11:25:43.580331", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Daily Summary rows: 365"}
+{"timestamp": "2026-02-02T11:25:43.581332", "level": "INFO", "logger": "Gold Aggregation", "module": "gold_agg", "message": "Gold Aggregation completed successfully..."}

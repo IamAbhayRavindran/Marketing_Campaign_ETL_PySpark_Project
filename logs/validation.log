@@ -1,0 +1,25 @@
+{"timestamp": "2026-02-02T11:26:04.834412", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Loading Silver Final Data..."}
+{"timestamp": "2026-02-02T11:26:09.694561", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Silver Final Count : 301000"}
+{"timestamp": "2026-02-02T11:26:09.695571", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Silver layer schema:"}
+{"timestamp": "2026-02-02T11:26:09.698777", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Load Gold Aggregation Outputs..."}
+{"timestamp": "2026-02-02T11:26:10.474562", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Gold Campaign Summary Count : 301000"}
+{"timestamp": "2026-02-02T11:26:10.588556", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Gold Channel Summary Count : 6"}
+{"timestamp": "2026-02-02T11:26:10.702884", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Gold Daily Summary Count : 365"}
+{"timestamp": "2026-02-02T11:26:10.702884", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Checking missing values in critical column (Silver layer)..."}
+{"timestamp": "2026-02-02T11:26:10.853764", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Campaign_ID' has no missing values."}
+{"timestamp": "2026-02-02T11:26:11.000766", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Company' has no missing values."}
+{"timestamp": "2026-02-02T11:26:11.116763", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Channel_Used' has no missing values."}
+{"timestamp": "2026-02-02T11:26:11.117821", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Checking for Negative Values in Numeric Columns..."}
+{"timestamp": "2026-02-02T11:26:11.275463", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Clicks' has no negative values."}
+{"timestamp": "2026-02-02T11:26:11.390868", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Impressions' has no negative values."}
+{"timestamp": "2026-02-02T11:26:11.564965", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Conversion_Rate' has no negative values."}
+{"timestamp": "2026-02-02T11:26:11.695326", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Acquisition_Cost' has no negative values."}
+{"timestamp": "2026-02-02T11:26:11.830677", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'ROI' has no negative values."}
+{"timestamp": "2026-02-02T11:26:11.957081", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Column 'Engagement_Score' has no negative values."}
+{"timestamp": "2026-02-02T11:26:11.958083", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Validating CTR & Conversion Rate ranges (0 to 1)..."}
+{"timestamp": "2026-02-02T11:26:12.448160", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "CTR range validation passed."}
+{"timestamp": "2026-02-02T11:26:12.448160", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Conversion Rate range validation passed."}
+{"timestamp": "2026-02-02T11:26:12.449164", "level": "INFO", "logger": "Data Validation", "module": "data_validation", "message": "Comparing Silver & Gold aggregation totals..."}
+{"timestamp": "2026-02-02T11:26:13.043637", "level": "ERROR", "logger": "Data Validation", "module": "data_validation", "message": "Click mismatch : Silver=165650173, Gold=109954406"}
+{"timestamp": "2026-02-02T11:26:13.044979", "level": "ERROR", "logger": "Data Validation", "module": "data_validation", "message": "Impressions mismatch : Silver=1682172497, Gold=1101460304"}
+{"timestamp": "2026-02-02T11:26:13.053466", "level": "ERROR", "logger": "Data Validation", "module": "data_validation", "message": "Data Validation Process Completed Successfully..."}

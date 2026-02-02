@@ -1,0 +1,2 @@
+{"timestamp": "2026-01-26T06:37:54.431204", "level": "INFO", "logger": "Raw to Bronze", "module": "bronze_ingestion", "message": "{'event': 'bronze_ingestion_started', 'dev_mode': True, 'write_mode': 'overwrite'}"}
+{"timestamp": "2026-01-26T06:37:54.432203", "level": "INFO", "logger": "Raw to Bronze", "module": "bronze_ingestion", "message": "Reading raw CSV files"}
